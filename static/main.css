@@ -1,0 +1,37 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.champ-img, .buttons {
+  width: 67%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.champion-square {
+  width:50%;
+  flex: 1;
+}
+
+.roundbutton{
+  display:inline;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid red;
+  background: red;
+  margin-left: 3px;
+  margin-right: 3px;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+}
